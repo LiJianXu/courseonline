@@ -1,0 +1,13 @@
+<!--component/list/list.wxml-->
+<view class="list" bindtap="getdetial">
+   <image   id="{{tid}}" class="img" src="{{imgurl}}"></image>
+   <view class="right">
+      <view class="cartitle">{{title}}</view>
+   <view class="pricecontainer">
+       <view class="price">{{price}}</view>
+       <view class="conttitle">人购买</view>
+       <view class="cont">{{cont}}</view>
+   </view>
+   </view>
+
+</view>

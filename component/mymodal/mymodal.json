@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index",
+    "i-icon": "../../dist/icon/index",
+    "my-button": "../mybutton/mybutton"
+  }
+}

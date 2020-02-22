@@ -1,0 +1,14 @@
+<!--pages/course/course.wxml-->
+
+<my-modal></my-modal>
+<view class="searchlist">
+
+<my-list tid="1"></my-list>
+<my-list tid="1"></my-list>
+<my-list tid="1"></my-list>
+<my-list tid="1"></my-list>
+<my-list tid="1"></my-list>
+<my-list tid="1"></my-list>
+<my-list tid="1"></my-list>
+</view>
+
