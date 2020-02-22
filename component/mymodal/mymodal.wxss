@@ -1,0 +1,195 @@
+/* component/mymodal/mymodal.wxss */
+.modal-dis{
+  display: none;
+}
+.modal-show{
+  display: block;
+}
+.my-modal{
+position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(203, 203, 203, 0.5);
+}
+.type{
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  z-index: 20;
+  background-color: #fff;
+}
+.row{
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+}
+
+
+.i-collapse-item-arrow{
+  transition:transform .2s ease-in-out;
+  }
+.i-collapse-item-arrow-show{transition:transform .2s ease-in-out;transform:rotate(90deg);
+   }
+.tablelist0{
+  position: absolute;
+  width: 100%;
+  height: 240px;
+  margin-top: 42px;
+  z-index: 30;
+  background-color: #CCC;
+}
+.tablelist1{
+  position: absolute;
+    width: 100%;
+  height: 200px;
+  margin-top: 42px;
+  z-index: 30;
+  background-color: #CCC;
+}
+.tablelist2{
+  position: absolute;
+    width: 100%;
+  height: 180px;
+  margin-top: 42px;
+  z-index: 30;
+  background-color: #CCC;
+}
+.tablelist1itemtd{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.tablelist1itemtd-link{
+    width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #fff;
+}
+
+.scroll{
+  position: relative;
+  float: left;
+  height: 240px;
+}
+.tablelist0itemleft{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.tablelist0itemleft-show{
+  width: 100%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #fff;
+}
+.tablelist0itemright-show{
+  position: relative;
+  float: left;
+  display: block;
+  width: 50%;
+  height: 240px;
+  background-color: #fff;
+}
+.tablelist0itemright-list{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+}
+.tablelist0itemright-list-check{
+  color: #ff6600;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+}
+.tablelist0itemright{
+  display: none;
+}
+.scroll-all{
+  width: 100%;
+}
+.scroll-half{
+  width: 50%;
+}
+.types{
+  position: relative;
+  float: left;
+  height: 70px;
+  width: 100%;
+  border-bottom: 1px #fff dashed;
+}
+.mytitle{
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+}
+.mybutton{
+  text-align: center;
+  position: relative;
+  float: left;
+  border: 1px #fff solid;
+  border-radius: 5px;
+  margin: 5px 10px;
+  padding: 0px 10px;
+  background-color: #fff;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}
+.mybutton-select{
+  text-align: center;
+  position: relative;
+  float: left;
+  border: 1px #ff6600 solid;
+  border-radius: 5px;
+  margin: 5px 10px;
+  padding: 0px 10px;
+  color: #ff6600;
+  background-color: rgba(250, 122, 2, 0.733);
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}
+.resetplane{
+  width: 100%;
+  position: relative;
+  float: left;
+  height: 40px;
+}
+.reset{
+  position: relative;
+  float: right;
+  width: 60px;
+  border-radius: 5px;
+  margin: 8px 5px;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+  color: #ff6600;
+  font-size: 12px;
+  border: 1px #ff6600 solid;
+  background-color: #ff660050;
+}
+.confirm{
+  position: relative;
+  float: right;  
+  width: 60px;
+  margin: 8px 5px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: #ff6600;
+  text-align: center;
+  color: #fff;
+}

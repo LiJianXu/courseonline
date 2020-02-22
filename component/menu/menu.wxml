@@ -1,0 +1,4 @@
+<!--component/menu/menu.wxml-->
+<view  class="i-class i-collapse" bindcollapse="clickfn">
+  <slot></slot>
+</view>

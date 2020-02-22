@@ -1,0 +1,48 @@
+/* component/car/car.wxss */
+.list{
+  position: relative;
+  float: left;
+  width: 50%;
+  height: 120px;
+}
+.carimg{
+  height: 70px;
+  text-align: center;
+  margin: 5px 10px;
+}
+.img{
+  width: 140px;
+  height: 70px;
+}
+.cartitle{
+  height: 20px;
+  line-height: 20px;
+  background-color: #fff;
+  margin: 0px 10px;
+}
+.pricecontainer{
+  height: 10px;
+  background-color: #fff;
+  margin: 5px 10px;
+}
+.price{
+  position: relative;
+  float: left;
+  line-height: 10px;
+  font-size: 10px;
+  color: #f00;
+}
+.cont{
+    position: relative;
+  float: right;
+  line-height: 10px;
+  font-size: 10px;
+  color: #CCC;
+}
+.conttitle{
+      position: relative;
+  float: right;
+  line-height: 10px;
+  font-size: 10px;
+  color: #CCC;
+}

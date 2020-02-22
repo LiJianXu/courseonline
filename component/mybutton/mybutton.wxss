@@ -1,0 +1,28 @@
+/* component/mybutton/mybutton.wxss */
+.mybutton{
+  text-align: center;
+  position: relative;
+  float: left;
+  border: 1px #fff solid;
+  border-radius: 5px;
+  margin: 5px 10px;
+  padding: 0px 10px;
+  background-color: #fff;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}
+.mybutton-select{
+  text-align: center;
+  position: relative;
+  float: left;
+  border: 1px #ff6600 solid;
+  border-radius: 5px;
+  margin: 5px 10px;
+  padding: 0px 10px;
+  color: #ff6600;
+  background-color: #ff660050;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+}
