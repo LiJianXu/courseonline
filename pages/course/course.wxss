@@ -1,7 +1,0 @@
-/* pages/course/course.wxss */
-
-.searchlist{
-  height: 100px;
-  width: 100px;
-  background-color: #CCC;
-}
